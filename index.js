@@ -11,14 +11,9 @@ app.use(express.urlencoded({extended:false}));
 //routes
 app.use("/api/products",productRoute);
 
-
-
-
 app.get('/',(req,res)=>{
     res.send("Hello from Node API Beni!");
 });
-
-
 
 
 mongoose.connect("mongodb+srv://adminBeni:12345@backenddb.pyy2dzv.mongodb.net/?appName=backendDB")
