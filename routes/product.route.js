@@ -9,5 +9,8 @@ router.get("/:id",getProduct);
 
 router.post("/",createProduct);
 
+// update a product
+ router.put("/:id",updateProduct); 
+
 
 module.exports = router;
