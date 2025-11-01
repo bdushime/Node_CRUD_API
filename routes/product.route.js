@@ -14,7 +14,7 @@ router.post("/",createProduct);
 
  // delete a product
 
- router.delete()
+ router.delete("/:id",deleteProduct);
 
 
 module.exports = router;
