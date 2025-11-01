@@ -10,7 +10,6 @@ app.use(express.urlencoded({extended:false}));
 
 //routes
 app.use("/api/products",productRoute);
-app.use("/api/product",productRoute);
 app.get('/',(req,res)=>{
     res.send("Hello from Node API Beni!");
 });
