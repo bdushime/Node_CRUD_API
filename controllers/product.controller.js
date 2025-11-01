@@ -21,5 +21,6 @@ const getProduct = async (req,res)=>{
 };
 
 module.exports = {
-    getProducts
+    getProducts,
+    getProduct
 };
