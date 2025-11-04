@@ -41,7 +41,9 @@ const getProducts = async (req,res)=>{
 // };
 
   const createProduct = async(req,res)=>{
-    
+     try{
+        const product =
+     }
   }
 
 const updateProduct = async(req,res)=>{
