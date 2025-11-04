@@ -63,6 +63,8 @@ const updateProduct = async(req,res)=>{
         }
         const updatedProduct = await Product.findById(id);
         res.status(200).json({message:error.message});
+     }catch(error){
+        
      }
 }
 
