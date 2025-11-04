@@ -40,6 +40,10 @@ const getProducts = async (req,res)=>{
 //     }
 // };
 
+  const createProduct = async(req,res)=>{
+    
+  }
+
 const updateProduct = async(req,res)=>{
     try{
         const {id} = req.params;
