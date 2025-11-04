@@ -20,6 +20,13 @@ const getProducts = async (req,res)=>{
 //      }
 // };
 
+  const getProduct = async (req,res)=>{
+    try{
+        const {id} = req.params;
+        const product = await Product.findById
+    }
+  }
+
 const createProduct = async(req,res)=>{
     try{
         const product = await Product.create(req.body);
