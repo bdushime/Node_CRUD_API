@@ -54,7 +54,9 @@ const getProducts = async (req,res)=>{
 //     }
 // }
 
-const 
+const updateProduct = async(req,res)=>{
+     try
+}
 
 const deleteProduct = async (req,res)=>{
     try{
