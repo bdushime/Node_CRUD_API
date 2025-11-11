@@ -14,7 +14,7 @@ router.post("/",createProduct);
 // update a product
  router.put("/:id",updateProduct); 
 
- // delete a product
+ // delete product
 
  router.delete("/:id",deleteProduct);
 
