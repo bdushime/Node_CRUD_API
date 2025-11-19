@@ -6,7 +6,7 @@ const {getProducts, getProduct,createProduct,updateProduct,deleteProduct} = requ
 // routes
 router.get('/',getProducts);
 router.get("/:id",getProduct);
-router.get("/:id",getProduct);
+
 
 router.post("/",createProduct);
 
